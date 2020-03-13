@@ -1,0 +1,5 @@
+<launch>
+
+<node pkg="artbot_motion_02" name="motion_planner2" type="motion_planner2.py" output="screen"/>	
+	
+</launch>
