@@ -14,7 +14,7 @@ is required to be created with the .dae file of your model to be visualised in g
 6. After running the world file insert the artbot.02 model with the gazebo gui in the track and make it move using the artbot_motion_02 package like this: "roslaunch artbot_motion_02 motion.launch"
 --------------------------------------------------------------------------------------------------------------------------------
 7. For the gmapping proccess which is included in the artbot_motion_02 package you will have to record data into a .bag file and the use the gmapping.launch file to open a server that will execute your mapping process which is further discribed below.
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
  *skip this if you are familiar with gmapping
  
