@@ -1,7 +1,7 @@
 <launch>
   <arg name="scan_topic"  default="/scan"/>
-  <arg name="base_frame"  default="/chassis"/>
-  <arg name="odom_frame"  default="/odom"/>
+  <arg name="base_frame"  default="/world"/>
+  <arg name="odom_frame"  default="/chassis"/>
 
   <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping" output="screen">
     <param name="base_frame" value="$(arg base_frame)"/>

@@ -39,20 +39,20 @@ def callback(SensorData):
 				if(SensorData.ranges[k]<3):
 					counter2=counter2+1	
 			if (counter1>counter2):	
-				motion_activator_msg.linear.x= 8
-               			motion_activator_msg.angular.z= 8
+				motion_activator_msg.linear.x= 3
+               			motion_activator_msg.angular.z= 3
 			elif (counter1<counter2):
-				motion_activator_msg.linear.x= 8
-	                	motion_activator_msg.angular.z= -8
+				motion_activator_msg.linear.x= 3
+	                	motion_activator_msg.angular.z= -3
 			else:
 				motion_activator_msg.angular.z=0
-				motion_activator_msg.linear.x=20
+				motion_activator_msg.linear.x=3
 	
 		else:
-			motion_activator_msg.linear.x=20
+			motion_activator_msg.linear.x=3
 			motion_activator_msg.angular.z=0
 	else:		
-		motion_activator_msg.linear.x=20
+		motion_activator_msg.linear.x=3
 		motion_activator_msg.angular.z=0	
 		
 		
